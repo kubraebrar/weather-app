@@ -2,7 +2,7 @@
     let searchInput = document.getElementById("search").value;
     const weatherDataSection = document.getElementById("weather-data");
     weatherDataSection.style.display = "block";
-    const apiKey = "fc1f4448ce0b3f6f1e02648bf5ff2886";
+    const apiKey = "REPLACE WITH YOUR API KEY";
 
     if (searchInput === "") {
         weatherDataSection.innerHTML = `
